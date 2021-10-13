@@ -9,6 +9,16 @@
       "comparison": "included",
       "timeout": 3,
       "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "mvn compile",
+      "run": "mvn test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 10
     }
   ]
 }
